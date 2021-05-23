@@ -8,20 +8,4 @@ The ISO contains all the eznixOS build related files inside the /usr/share/eznix
 
 The ezadmin tool is a small script with a menu driven interface that performs a few basic functions. The basic functions of the ezadmin tool are to add the first user to the sudo group. Many users find sudo a convenient method to temporarily gain root privileges to perform administrative tasks. The ezadmin tool can also optimize the sources.list file, adding the contrib and non-free sections to the repositories and switching the mirrors to Debian's DNS based redirection servers for automatically picking the closest mirrors. Please take a look at the ezadmin-howtow.txt on the Desktop of eznixOS.
 
-
-  EZ Admin Menu:
-  
-  (a) Add Myself to Sudo Group
-       (Logout & Login to take effect)
-  (b) Optimize Sources	& Update Repos
-  (c) Update Youtube-dl to latest version
-  (d) Enable systemd-resolved service
-  (e) Install or upgrade Firefox Latest
-  (f) Install newest kernel from backports
-       (Reboot Required)
-  (x) Exit
-
- Please enter your choice:
-
-
 You can run the ezadmin script as root to perform its functions. Use "su -l" to root in a terminal and issue the command: "ezadmin" to execute the script. Read the documentation for the ezadmin script BEFORE using it. The functions are serious and the changes are not easy to reverse once done. Have fun.
