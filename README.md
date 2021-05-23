@@ -25,7 +25,3 @@ The ezadmin tool is a small script with a menu driven interface that performs a 
 
 
 You can run the ezadmin script as root to perform its functions. Use "su -l" to root in a terminal and issue the command: "ezadmin" to execute the script. Read the documentation for the ezadmin script BEFORE using it. The functions are serious and the changes are not easy to reverse once done. Have fun.
-
-
-# readme.txt -- Revision: 109r1 -- by eznix (https://sourceforge.net/projects/eznixos/)
-# (GNU/General Public License version 3.0)
